@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="de">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Kontakt</title>
+
+		<!-- FAVICONS -->
+				<link rel="apple-touch-icon" sizes="180x180" href="./src/img/Favicons/apple-touch-icon.png">
+				<link rel="icon" type="image/png" sizes="32x32" href="./src/img/Favicons/favicon-32x32.png">
+				<link rel="icon" type="image/png" sizes="16x16" href="./src/img/Favicons/favicon-16x16.png">
+				<link rel="manifest" href="./src/img/Favicons/site.webmanifest">
+				<link rel="mask-icon" href="./src/img/Favicons/safari-pinned-tab.svg" color="#5bbad5">
+				<link rel="shortcut icon" href="./src/img/Favicons/favicon.ico">
+				<meta name="msapplication-TileColor" content="#f0f0f0">
+				<meta name="msapplication-config" content="./src/img/Favicons/browserconfig.xml">
+				<meta name="theme-color" content="#ffffff">
+
+		<!-- AUTOREN-SRYLESHEET -->
+				<link rel="stylesheet" type="text/css" href="src/css/styles.css">
+	</head>
+
+	<body>
+
+		<!-- Navigations-Leiste -->
+
+				<nav id="header-nav">
+
+		<!-- DESKTOP-NAVIGATION -->
+
+					 <div class="container"  id="desktop-nav">
+						<div class="row">
+							<div class="col-6">
+
+								<a href="index.html" class="logo-link">
+									<img src="./src/img/webdesign-logo.png" alt="logo">
+								</a>
+
+								<ul>
+									<li><a href="index.html">Startseite</a></li>
+									<li><a href="Leistungen.html">Leistungen</a></li>
+									<li class="active"><a href="Kontakt.html">Kontakt</a></li>
+									<li><a href="impressum.html">Impressum</a></li>
+								</ul>
+
+							</div>
+						</div>
+					</div>
+
+		<!-- MOBILE-NAVIGATION -->
+
+					<div class="container" id="mobile-nav">
+					 <div class="row">
+						 <div class="col-6">
+
+							 <a href="index.html" class="logo-link">
+								 <img src="./src/img/webdesign-logo.png" alt="logo">
+							 </a>
+
+							 <div class="clearfix" id="mobile-nav-dropdown ">
+
+								 <div id="mobile-nav-button"><span>&equiv;</span></div>
+
+								 <div class="clearfix" id="mobile-nav-content ">
+
+									 <ul>
+			 						 <li><a href="index.html">Startseite</a></li>
+			 						 <li><a href="Leistungen.html">Leistungen</a></li>
+			 						 <li class="active"><a href="Kontakt.html">Kontakt</a></li>
+			 						 <li><a href="impressum.html">Impressum</a></li>
+			 					 </ul>
+
+								 </div>
+							 </div>
+						 </div>
+					 </div>
+				 </div>
+
+				</nav>
+
+
+				<!-- Header-Banner -->
+
+				<header id ="header-banner-klein"></header>
+
+
+				<!-- KONTAKT-BEREICH -->
+
+				<section id="kontakt-formular">
+
+					<div class="container">
+
+						<div class="row">
+							<div class="col-6">
+								<header class="intro-container">
+								<h1>Kontakt</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								</header>
+							</div>
+						</div>
+								<form action="kontakt.html" method="post">
+										<div class="row">
+											<div class="col-3">
+												<label for="Vorname" class="screenreader">Vorname:</label>
+												<input id="vorname" type="text" name="Vorname" value="" placeholder="Vorname">
+											</div>
+											<div class="col-3">
+												<label for="nachname" class="screenreader">Nachname:</label>
+												<input id="nachname" type="text" name="nachname" value="" placeholder="Nachname">
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-6">
+												<label for="email" class="screenreader">E-Mail:</label>
+												<input id="email" type="text" name="nachname" value="" placeholder="E-Mail" pattern="regexp">
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-6">
+												<label for="nachricht"></label>
+												<textarea id="nachricht" name="nachricht" placeholder="Nachricht"></textarea>
+
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-6">
+												<button id="absendenButton" class="btn-typ-3" type="submit" name="Absendebutton">Senden</button>
+											</div>
+										</div>
+							</form>
+					</div>
+				</section>
+
+
+
+				<!-- FOOTER -->
+
+					<footer id="footer">
+						<div class="container">
+							<div class="row">
+								<div class="col-6">
+									<span>WEBDESIGN made simple by Ramo Merk (2021)</span>
+									<nav id="footer-nav">
+									<a href="impressum.html">Impressum</a>
+									</nav>
+								</div>
+							</div>
+						</div>
+
+					</footer>
+	</body>
+
+</html>

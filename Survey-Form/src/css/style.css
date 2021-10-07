@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(5, 173, 162);
+    color: black;
+}
+
+#title {
+    background-color: rgb(5, 173, 162);
+    color: black;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+#description {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.contianer {
+    width: 95%;
+    margin: auto;
+    background-color: #fff;
+    color: #000;
+}
+
+#survey-form {
+    text-align: center;
+}
+
+.row-tab {
+    display: block;
+    padding-bottom: 6px;
+}
+
+.label-tab {
+    display: inline-block;
+    width: 44%;
+    text-align: right;
+    vertical-align: top;
+    margin-bottom: 8px;
+    padding-top: 10px;
+}
+
+.input-tab {
+    display: inline-block;
+    width: 54%;
+    text-align: left;
+    margin-left: 8px;
+    padding-top: 10px;
+}
+
+.select-tab {
+    display: inline-block;
+    width: 54%;
+    text-align: left;
+    padding-top: 10px;
+}
+
+#select-box {
+    padding: 5px 0px;
+    margin-left: 4px;
+}
+
+#btn {
+    width: 100px;
+    font-size: 20px;
+    padding: 1px 0px;
+    margin: 8px;
+    background-color: rgb(5, 173, 162);
+    color: #fff;
+    border-radius: 5px 5px;
+}
+
+#btn:hover {
+    background-color: #fff;
+    color: #000;
+    box-shadow: 2px 2px 5px #000;
+    border-radius: 5px 5px;
+}
